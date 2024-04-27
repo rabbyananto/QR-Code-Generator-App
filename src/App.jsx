@@ -22,7 +22,7 @@ function App() {
   };
   return (
     <div className="app">
-      <h1>QR Code Generator</h1>
+      <h1>QR CODE GENERATOR</h1>
       <input
         placeholder="Your link goes here"
         type="text"
