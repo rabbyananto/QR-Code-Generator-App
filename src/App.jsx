@@ -2,7 +2,7 @@ import React from "react";
 import Qrcode from "qrcode";
 import { useState } from "react";
 
-const App = () => {
+function App() {
   const [url, setUrl] = useState("");
   const [qrcode, setQrcode] = useState("");
 
@@ -24,8 +24,8 @@ const App = () => {
     <div className="app">
       <h1>QR Code Generator</h1>
       <input
+        placeholder="Your link goes here"
         type="text"
-        placeholder="a input"
         value={url}
         onChange={(evt) => setUrl(evt.target.value)}
       />
@@ -40,6 +40,6 @@ const App = () => {
       )}
     </div>
   );
-};
+}
 
 export default App;
