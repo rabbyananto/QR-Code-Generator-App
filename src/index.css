@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  text-align: center;
+  background-color: rgba(9, 139, 165, 0.475);
+}
+
+.app {
+  padding: 2rem 1rem;
+}
